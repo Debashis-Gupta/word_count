@@ -1,0 +1,8 @@
+<p>Welcome to  <strong>  Word Counter Site </strong></p>
+
+<form action={% url 'count' %} method='GET'>
+    <textarea cols='80' rows='10' name='fulltext'> </textarea>
+    <br>
+    <input type='submit' value='Count Word' />
+</form>
+<a href={% url 'aboutus' %}> About the site</a>

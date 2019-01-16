@@ -1,0 +1,13 @@
+<a href={% url 'homepage' %}>Wanna test again</a>
+<br>
+<span> Your text has </span> <h1> {{ counts }} words  </h1>
+<h1> Your text is  : </h1> 
+{{ fulltext }}
+
+{% for key,value  in sortedWord  %}
+
+    {{ key }} -- {{ value }}
+    <br>
+
+
+{% endfor %}
